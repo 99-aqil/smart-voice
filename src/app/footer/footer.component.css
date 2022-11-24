@@ -1,0 +1,108 @@
+
+/*FOOTER STARTS HERE*/
+.footer-top{
+    padding: 30px;
+    background: rgb(255, 213, 186);
+}
+
+.footer-all-menu h2{
+    color: #111;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;
+}
+
+
+.footer-all-menu ul{
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+.footer-all-menu ul li{
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+.footer-all-menu ul li i{
+    margin-right: 10px;
+    font-size: 17px;
+    color: #ff4000da;
+}
+
+.footer-all-menu ul li .heading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-all-menu ul li .address{
+    color: #111;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.footer-all-menu ul li .email a{
+    padding-left: 10px;
+    color: #111;
+    text-decoration: underline;
+    transition: .3 all ease;
+    font-size: 15px;
+}
+
+.footer-all-menu ul li .email a:hover{
+    color:  #ff4000da;
+}
+
+.footer-all-menu ul li .number a{
+    color: #111;
+    font-size: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.footer-all-menu ul li .number a:hover{
+    color:  #ff4000da;
+}
+
+.footer-logo{
+    width: 300px;
+    height: 60px;
+    margin: 0 auto;
+    
+}
+.footer-logo img{
+    padding: 50px 0px 0px 0px;
+
+    
+}
+
+footer{
+    padding: 20px 0;
+    background: #ff4000da;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+/*FOOTER ENDS HERE*/
+
+@media(max-width:991px){
+
+    .footer-logo{
+        margin-top: -50px;
+        margin-bottom: 30px;
+    }
+    .footer-all-menu h2{
+        margin-top: 30px;
+        margin-bottom: -20px;
+        text-align: center;
+    }
+    .footer-all-menu ul{
+        text-align: justify;
+        padding-left: 120px;
+    }
+}

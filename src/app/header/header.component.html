@@ -1,0 +1,62 @@
+<!--HEADER STARTS HERE-->
+<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="logo-img">
+            <a routerLink="/home">
+              <img src="assets/Images/smart voice.png">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="language">
+            <ul>
+              <li>
+                <a routerLink="/about-us" routerLinkActive="active">
+                  About Us
+                </a>
+              </li>
+              <li (click)="drop('priceCode')">Our Services <i class="fa fa-caret-down"></i>
+                <div class="dropdown" *ngIf="id === 'priceCode'">
+                  <ul>
+                    <li>
+                      <a routerLink="/system-integrations" routerLinkActive="active">System Integrations</a>
+                    </li>
+                    <li>
+                      <a routerLink="/ad-tech-and-publisher" routerLinkActive="active">AD Tech & Publisher Solution</a>
+                    </li>
+                    <li>
+                      <a href="https://smart-lab.biz/bulk-sms/">Messaging Solution</a>
+                    </li>
+                    <li>
+                      <a routerLink="/software-development" routerLinkActive="active">Software Development</a>
+                    </li>
+                    <li>
+                      <a routerLink="/digital-engagements" routerLinkActive="active">Digital Engagements</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a routerLink="/our-partners" routerLinkActive="active">
+                  Our Partners
+                </a>
+              </li>
+              <li>
+                <a routerLink="/our-clients" routerLinkActive="active">
+                  Our Clients
+                </a>
+              </li>
+              <li>
+                <a routerLink="/contact" routerLinkActive="active">
+                  Contact
+                </a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+<!--HEADER ENDS HERE-->

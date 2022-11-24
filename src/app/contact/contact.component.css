@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.containers {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 10px;
+    padding-bottom: 35px;
+    padding-top: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background: #111;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title::after {
+    content: '\f00d';
+    font-family: FontAwesome;
+    color: #ff4000da;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    background: #fff;
+    transform: translateX(-50%);
+    font-size: 16px;
+}
+
+.title h2 {
+    font-size: 30px;
+    color: #ff4000da;
+    font-weight: 100px;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: -10px;
+}
+.footer-top{
+    padding: 30px;
+    background: #fff;
+}
+
+.footer-all-menu h2{
+    color: #111;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;
+}
+
+
+.footer-all-menu ul{
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+.footer-all-menu ul li{
+    list-style-type: none;
+    margin-top: 8px;
+}
+
+.footer-all-menu ul li i{
+    margin-right: 10px;
+    font-size: 17px;
+    color: #ff4000da;
+}
+
+.footer-all-menu ul li .heading{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-all-menu ul li .address{
+    color: #111;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.footer-all-menu ul li .email a{
+    padding-left: 10px;
+    color: #111;
+    text-decoration: underline;
+    transition: .3 all ease;
+    font-size: 15px;
+}
+
+.footer-all-menu ul li .email a:hover{
+    color:  #ff4000da;
+}
+
+.footer-all-menu ul li .number a{
+    color: #111;
+    font-size: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.footer-all-menu ul li .number a:hover{
+    color:  #ff4000da;
+}
+
+.footer-logo{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+
+    
+}
+.footer-logo img{
+    width: 100%;
+    height: 100%;
+
+}
+footer{
+    padding: 20px 0;
+    background: #ff4000da;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.full{
+    width: 700px;
+    height: 400px;
+}
+/*FOOTER ENDS HERE*/
+
+@media(max-width:991px){
+    .footer-logo{
+        margin: auto;
+    }
+
+    .footer-all-menu h2{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer-all-menu ul li{
+        text-align: center;
+    }
+
+    .full{
+        width: 500px;
+        height: 400px;
+    }
+
+}
